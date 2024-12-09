@@ -7,7 +7,7 @@ const RastaurantsListItem = ({ info }) => {
   return (
     <div className="w-full border border-primary-border rounded-[24px] p-4">
       <div className="relative w-full aspect-video rounded-[16px] overflow-hidden mb-3">
-        <Image src={info.images[0]} fill={true} />
+        <Image src={info.images[0]} alt="alt-text" fill={true} />
       </div>
 
       <div className="flex items-center justify-between mb-3">
