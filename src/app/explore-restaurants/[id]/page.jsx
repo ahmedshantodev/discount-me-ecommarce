@@ -72,7 +72,7 @@ const RastaurantInfo = ({ params }) => {
           {...settings}
         >
           {rastaurantInfo?.images.map((item, index) => (
-            <div className="w-full h-[650px] relative">
+            <div key={index} className="w-full h-[650px] relative">
               <Image src={item} alt="rastu" fill={true} />
             </div>
           ))}

@@ -6,7 +6,7 @@ const ProductListItem = () => {
   return (
     <div className="w-full">
       <div className="relative w-full aspect-video border rounded-[16px] overflow-hidden mb-3">
-        <Image src={rastaurantImageThree} fill={true} />
+        <Image src={rastaurantImageThree} alt="Skateboard Shoe" fill={true} />
       </div>
 
       <h4 className="font-secondary-font text-secondary-text text-2xl font-medium">

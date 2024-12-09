@@ -39,7 +39,7 @@ const Banner = () => {
     <section>
       <div className="relative container flex items-center py-20">
         <div className="absolute top-0 left-[365px]">
-          <Image src={bannerPartOverlay} fill={false} />
+          <Image src={bannerPartOverlay} alt="" fill={false} />
         </div>
 
         <div className="w-[55%]">
