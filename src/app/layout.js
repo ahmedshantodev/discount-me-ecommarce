@@ -2,6 +2,7 @@ import { DM_Sans, Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/reusable/Navbar";
 import Footer from "@/components/reusable/Footer";
+import StoreProvider from "./StoreProvider";
 
 const primaryFont = Roboto({
   subsets: ["latin"],
@@ -22,10 +23,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${primaryFont.variable} ${secondaryFont.variable} bg-[#FDFDFD]`}>
-        <Navbar />
-        {children}
-        <Footer />
+      <body
+        className={`${primaryFont.variable} ${secondaryFont.variable} bg-[#f8fafc]`}
+      >
+        <StoreProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </StoreProvider>
       </body>
     </html>
   );

@@ -1,7 +1,6 @@
 let navMenu = [
   {
     name: "All Category",
-    path: "",
     submenu: [
       {
         name: "category one",
@@ -23,7 +22,7 @@ let navMenu = [
   },
   {
     name: "Coupon",
-    path: "",
+    path: "coupon-cards",
   },
   {
     name: "Support",

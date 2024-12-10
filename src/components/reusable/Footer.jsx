@@ -10,13 +10,13 @@ import appStore from "/public/images/download-appstore.png";
 const Footer = () => {
   return (
     <section className="bg-[#232323] text-white">
-      <div className="container flex py-[75px]">
-        <div className="w-[40%]">
-          <div className="w-[250px] h-[65px] relative mb-3">
-            <Image src={logo} alt="company-name" fill={true} />
+      <div className="container flex flex-wrap py-10 lg:py-[75px]">
+        <div className="w-full xl:w-[40%] mb-10 xl:mb-0">
+          <div className="w-[200px] lg:w-[250px] relative mb-3">
+            <Image src={logo} alt="company-name" fill={false} />
           </div>
 
-          <p className="w-[365px] font-secondary-font text-tertiary-text text-lg mb-5">
+          <p className="lg:w-[365px] font-secondary-font text-tertiary-text text-lg mb-5">
             Ecommerce is a free UI Kit from Paperpillar that you can use for
             your personal or commercial project.
           </p>
@@ -25,7 +25,7 @@ const Footer = () => {
             <input
               type="text"
               placeholder="Type your email address"
-              className="py-3 px-6 rounded-[40px] border border-white bg-transparent w-[280px] font-secondary-font font-medium"
+              className="py-3 px-6 rounded-[40px] border border-white bg-transparent lg:w-[280px] font-secondary-font font-medium"
             />
 
             <button className="bg-white text-black rounded-[40px] px-8 py-3 font-secondary-font font-medium">
@@ -34,26 +34,26 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="w-[15%]">
-          <p className="font-secondary-font font-medium text-xl mb-7">
+        <div className="w-[49%] sm:w-[32%] md:w-[24%] xl:w-[15%] mb-10 lg:mb-0">
+          <p className="font-secondary-font font-medium text-lg lg:text-xl mb-5 lg:mb-7">
             Account
           </p>
 
-          <ul className="font-secondary-font font-normal text-lg space-y-4">
+          <ul className="font-secondary-font font-normal lg:text-lg space-y-2.5 lg:space-y-4">
             <li>
-              <a href="">My Account</a>
+              <a href="/login">Login</a>
             </li>
 
             <li>
-              <a href="">Login / Register</a>
+              <a href="/registration">registration</a>
             </li>
 
             <li>
-              <a href="">Cart</a>
+              <a href="/shoping-cart">Cart</a>
             </li>
 
             <li>
-              <a href="">Wishlist</a>
+              <a href="/coupon-cards">Coupons</a>
             </li>
 
             <li>
@@ -62,12 +62,12 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="w-[15%]">
-          <p className="font-secondary-font font-medium text-xl mb-7">
+        <div className="w-[49%] sm:w-[32%] md:w-[24%] xl:w-[15%] mb-10 lg:mb-0">
+          <p className="font-secondary-font font-medium text-lg lg:text-xl mb-5 lg:mb-7">
             Quick Link
           </p>
 
-          <ul className="font-secondary-font font-normal text-lg space-y-4">
+          <ul className="font-secondary-font font-normal lg:text-lg space-y-2.5 lg:space-y-4">
             <li>
               <a href="">Privacy Policy</a>
             </li>
@@ -86,12 +86,12 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="w-[15%]">
-          <p className="font-secondary-font font-medium text-xl mb-7">
+        <div className="w-[49%] sm:w-[32%] md:w-[24%] xl:w-[15%] mb-10 lg:mb-0">
+          <p className="font-secondary-font font-medium text-lg lg:text-xl mb-5 lg:mb-7">
             Support
           </p>
 
-          <ul className="font-secondary-font font-normal text-lg space-y-4">
+          <ul className="font-secondary-font font-normal lg:text-lg space-y-2.5 lg:space-y-4">
             <li>
               <a href="">exclusive@gmail.com</a>
             </li>
@@ -102,13 +102,13 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="w-[15%]">
+        <div className="w-full md:w-[24%] xl:w-[15%]">
           <p className="font-secondary-font font-medium text-xl mb-7">
             Download App
           </p>
 
           <div className="flex gap-x-3">
-            <div className="w-[80px] aspect-square relative">
+            <div className="w-[80px] md:w-[60px] lg:w-[80px] aspect-square relative">
               <Image src={QrCode} alt="company-name" fill={true} />
             </div>
 

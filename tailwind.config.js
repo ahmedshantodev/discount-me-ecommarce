@@ -11,6 +11,10 @@ module.exports = {
       padding: '10px',
     },
     extend: {
+      backgroundImage: {
+        "product-details-top-part-bg" : "url('/images/product-details-top-part-bg-image.png')",
+        "coupon-card-bg" : "url('/images/coupon-card-bg.png')"
+      },
       colors: {
         // color
         "primary-color": "#FF7D29",

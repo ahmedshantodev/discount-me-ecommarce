@@ -1,13 +1,13 @@
-import Banner from '@/components/section/home/Banner'
-import ExploreRestaurants from '@/components/section/home/ExploreRestaurants'
-import Products from '@/components/section/home/Products'
+import HomeBannerPart from '@/components/section/HomeBannerPart'
+import HomeExploreRestaurantsPart from '@/components/section/HomeExploreRestaurantsPart'
+import HomeProductsPart from '@/components/section/HomeProductsPart'
 
 const HomePage = () => {
   return (
     <>
-      <Banner />
-      <ExploreRestaurants />
-      <Products />
+      <HomeBannerPart />
+      <HomeExploreRestaurantsPart />
+      <HomeProductsPart />
     </>
   )
 }
