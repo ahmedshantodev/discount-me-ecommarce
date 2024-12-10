@@ -168,7 +168,7 @@ const RastaurantInfo = ({ params }) => {
       <div className="sm:flex flex-wrap gap-2.5 lg:gap-5">
         <div className="w-full sm:w-[49%] lg:w-[32%] rounded-[14px] overflow-hidden shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] mb-5 sm:mb-0">
           <div className="relative w-full aspect-video">
-            <Image src={rastaurantImageOne} alt="" fill={true} />
+            <Image src={rastaurantImageOne} alt="al-text" fill={true} />
           </div>
 
           <div className="py-3 lg:py-4 2xl:py-6 px-5 lg:px-6 2xl:px-8">
@@ -192,7 +192,7 @@ const RastaurantInfo = ({ params }) => {
 
         <div className="w-full sm:w-[49%] lg:w-[32%] rounded-[14px] overflow-hidden shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] mb-5 sm:mb-0">
           <div className="relative w-full aspect-video">
-            <Image src={rastaurantImageOne} alt="" fill={true} />
+            <Image src={rastaurantImageOne} alt="al-text" fill={true} />
           </div>
 
           <div className="py-3 lg:py-4 2xl:py-6 px-5 lg:px-6 2xl:px-8">
@@ -216,7 +216,7 @@ const RastaurantInfo = ({ params }) => {
 
         <div className="w-full sm:w-[49%] lg:w-[32%] rounded-[14px] overflow-hidden shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] mb-5 sm:mb-0">
           <div className="relative w-full aspect-video">
-            <Image src={rastaurantImageOne} alt="" fill={true} />
+            <Image src={rastaurantImageOne} alt="al-text" fill={true} />
           </div>
 
           <div className="py-3 lg:py-4 2xl:py-6 px-5 lg:px-6 2xl:px-8">
@@ -240,7 +240,7 @@ const RastaurantInfo = ({ params }) => {
 
         <div className="w-full sm:w-[49%] lg:w-[32%] rounded-[14px] overflow-hidden shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] mb-5 sm:mb-0">
           <div className="relative w-full aspect-video">
-            <Image src={rastaurantImageOne} alt="" fill={true} />
+            <Image src={rastaurantImageOne} alt="al-text" fill={true} />
           </div>
 
           <div className="py-3 lg:py-4 2xl:py-6 px-5 lg:px-6 2xl:px-8">
@@ -264,7 +264,7 @@ const RastaurantInfo = ({ params }) => {
 
         <div className="w-full sm:w-[49%] lg:w-[32%] rounded-[14px] overflow-hidden shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] mb-5 sm:mb-0">
           <div className="relative w-full aspect-video">
-            <Image src={rastaurantImageOne} alt="" fill={true} />
+            <Image src={rastaurantImageOne} alt="al-text" fill={true} />
           </div>
 
           <div className="py-3 lg:py-4 2xl:py-6 px-5 lg:px-6 2xl:px-8">

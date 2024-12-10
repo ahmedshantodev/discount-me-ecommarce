@@ -10,7 +10,7 @@ const ProductDetailsReviewPart = ({ info }) => {
 
       <div className="lg:w-[900px]">
         {info?.review.map((item, index) => (
-          <ReviewListItem info={item} />
+          <ReviewListItem key={index} info={item} />
         ))}
       </div>
     </div>

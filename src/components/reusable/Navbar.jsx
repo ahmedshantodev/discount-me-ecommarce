@@ -15,7 +15,7 @@ import { RxCross2 } from "react-icons/rx";
 // reusable components
 import navMenu from "@/data/navMenu";
 // helper functions
-import checkOutSideClick from "@/helper-function/checkOutSideClick";
+import useCheckOutSideClick from "@/helper-function/checkOutSideClick";
 
 const Navbar = () => {
   const subMenuRef = useRef();
@@ -28,11 +28,11 @@ const Navbar = () => {
     setIsSubMenuShow(!isSubMenuShow);
   };
 
-  checkOutSideClick(subMenuRef, () => {
+  useCheckOutSideClick(subMenuRef, () => {
     setIsSubMenuShow(false);
   });
 
-  checkOutSideClick(nevbarRef, () => {
+  useCheckOutSideClick(nevbarRef, () => {
     setIsSetsmallDeviceMenShow(false);
   });
 

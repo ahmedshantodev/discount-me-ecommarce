@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const checkOutSideClick = (ref, func) => {
+const useCheckOutSideClick = (ref, func) => {
   useEffect(() => {
     const click = (e) => {
       if (!ref?.current || ref?.current?.contains(e.target)) {
@@ -20,4 +20,4 @@ const checkOutSideClick = (ref, func) => {
   }, [ref, func]);
 };
 
-export default checkOutSideClick;
+export default useCheckOutSideClick;

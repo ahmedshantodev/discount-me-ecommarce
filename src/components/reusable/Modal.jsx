@@ -1,12 +1,12 @@
 "use client";
 
-import checkOutSideClick from "@/helper-function/checkOutSideClick";
+import useCheckOutSideClick from "@/helper-function/checkOutSideClick";
 import React, { useRef } from "react";
 
 const Modal = ({ show, setShow, className, children }) => {
   const modalRef = useRef();
 
-  checkOutSideClick(modalRef, () => {
+  useCheckOutSideClick(modalRef, () => {
     setShow(false);
   });
 

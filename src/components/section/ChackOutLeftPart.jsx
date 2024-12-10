@@ -84,7 +84,9 @@ const ChackOutLeftPart = () => {
           >
             <option value="">select</option>
             {countryList.map((item, index) => (
-              <option value={item.code}>{item.name}</option>
+              <option key={index} value={item.code}>
+                {item.name}
+              </option>
             ))}
           </select>
         </div>
@@ -104,7 +106,9 @@ const ChackOutLeftPart = () => {
           >
             <option value="">select</option>
             {state.map((item, index) => (
-              <option value={item.name}>{item.name}</option>
+              <option key={index} value={item.name}>
+                {item.name}
+              </option>
             ))}
           </select>
         </div>
