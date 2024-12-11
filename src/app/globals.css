@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom animation */
+.smoothApear {
+  animation: smoothApear 0.4s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+}
+@keyframes smoothApear {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, 20px);
+  }
+}
+
+.smoothHightIncrease {
+  animation: smoothHightIncrease 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+}
+@keyframes smoothHightIncrease {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 320px;
+  }
+}
